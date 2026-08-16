@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: rgb(209, 209, 209);
+    --color: rgb(253, 253, 253);
+    --background-repeat: no-repeat;
+    --background-position: center;
+    --background-size: cover;
+    --background-attachment:fixed;
+    --text-align: center;
+    --padding: 30px;
+    --width: 100%;
+    --height: 100vh;
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: var(--width);
+    padding: 0 10px;
+    background-color:var(--background-color);
+}
+main {
+    background-attachment:var(--background-attachment) ;
+    width: var(--width);
+    height: var(--height);
+    background-image: url(../assets/images/image-3.jpeg);
+    background-position: var(--background-position);
+    background-repeat: var(--background-repeat);
+    background-size: var(--background-size);
+    background-attachment: var(--background-attachment);
+    padding: var(--padding);
+    
+}
+
+nav a {
+    color: rgb(23, 4, 231);
+}
+
+input[type="search"] {
+    width: 15%;
+    padding:4px;
+    margin: 6px 0;
+    outline: none;
+}
+
+main h1,
+h2 {
+    color: var(--color);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin: 50px;
+    color: rgb(255, 254, 254);
+    font-family: var(--font-family);
+}
+
+.section-Goals{
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--background-color);
+    padding: var(--padding);
+}
+
+.section-Goals h2 {
+    /*Override external styles to force text alignment*/
+    text-align: left !important; 
+    margin: 10px 0;
+}
+
+.section-Goals ol li {
+    font-size: larger;
+    color: rgb(27, 27, 60);
+    margin: 10px;
+}
+
+.section-Goals > h3 {
+    color: rgb(217, 217, 243);
+    background-color: rgb(111, 110, 110);
+    width: 30%;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: var(--text-align);
+}
+
+.section-Goals button,
+.section-Goals .input-reset {
+    width: 10em;
+    height: 2em;
+    margin: 10PX 4px;
+}
+
+.section-Goals button {
+    background-color: blue;
+    color: var(--color);
+}
+
+.section-Goals button:hover {
+    background-color: azure;
+    color: black;
+}
+
+.section-Goals  .input-reset:hover {
+    background-color: red;
+    color: var(--color);
+} 
+
+input[type="radio"] {
+    margin: 4px;
+}
+
+footer {
+    padding: 4px 0;
+    background-color: rgb(32, 32, 32);
+    width: var(--width); 
+}
+
+footer > p {
+    color:black;
+}

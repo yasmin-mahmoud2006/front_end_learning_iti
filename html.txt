@@ -1,0 +1,30 @@
+
+
+                                                                                 HTML.
+
+
+A code invented to transform planning and imagination into interactive, actionable reality, it has become a fundamental language for building websites, and has been developed and updated to make the code clearer and more organized.
+ 
+The use of these tags can be divided into two main types
+1_Structural/Generic Tags. 
+2_Semantic Tags. 
+
+• Structural/Generic Tags
+
+It is a tag used primarily for page structuring and grouping elements, and it relies heavily on tags such as div and span.
+
+• semantic tags 
+
+This is the latest method for building the structure, and it relies heavily on
+ header
+ nav
+ main
+section
+Article
+figure
+figcaption
+
+2. Display Types 
+Every element in HTML behaves in a specific way regarding its layout and space:
+ * Block Elements: Elements that take up the full width available and always start on a new line (e.g., div, p, h1-h6).
+ * Inline Elements: Elements that take only as much width as necessary and flow side-by-side without starting a new line (e.g., span, a, strong).
