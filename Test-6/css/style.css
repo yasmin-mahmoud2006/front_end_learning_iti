@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container-background {
+    height: 100vh;
+    padding-top: 40px;
+    background-image: url(../assets/images/image-1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Container {
+    background-color: rgb(213, 179, 74);
+    border: 2px dotted rgb(244, 238, 210);
+    border-radius: 5px;
+    width: 55%;
+    height: 90%;
+    text-align:center ;
+    margin: 30px auto;
+    padding-top: 40px;
+}
+
+.Container img {
+    width: 180px;
+    height: 180px;
+    border: 2px solid rgb(175, 153, 8);
+    border-radius: 50%;
+    margin: 40px 0;
+}
+
+.heading-1 {
+    color: rgb(12, 12, 12);
+    text-shadow: 1px 1px 2px rgb(247, 174, 4);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.heading-2 {
+    text-shadow: 2px 1px 2px rgb(39, 38, 38);
+    color: rgb(235, 236, 237);
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Paragraph {
+    background-color: rgb(241, 231, 193);
+    border-radius: 5px;
+    line-height: 21px;
+    font-weight: 5px;
+    padding: 4px;
+    margin: 22px 15px;
+}
+
+.Container a,
+.Container button{
+    text-transform: capitalize;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+     padding: 5px 45px;
+}
+
+.Container a{
+    background-color:rgb(245, 241, 132);
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+.Container a:hover {
+    background-color:rgb(255, 247, 7);
+    color: rgb(111, 110, 110);
+    padding: 9px 48px;
+}
+
+.Container button {
+    width: 9.5rem;
+    padding: 5px !important;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+.Container button:hover {
+    background-color:rgb(44, 44, 43);
+    color: rgb(246, 240, 240);
+    padding: 9px 2px;
+    text-shadow: 1px 1px 1px gainsboro;
+}
